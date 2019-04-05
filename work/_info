@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Pnetwork_coding
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+w1554431444
+dC:/Users/siddi/vlsi/project
+8C:\Users\siddi\vlsi\project\package_decl.vhd
+FC:\Users\siddi\vlsi\project\package_decl.vhd
+l0
+L19
+V`IAGDXei^5<dCLVS0S@]R3
+!s100 f[nI9VD^?3dFOWlKF_OKh0
+OP;C;10.4a;61
+32
+b1
+!s110 1554431452
+!i10b 1
+!s108 1554431452.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\siddi\vlsi\project\package_decl.vhd|
+!s107 C:\Users\siddi\vlsi\project\package_decl.vhd|
+!i113 1
+o-work work -2002 -explicit -O0
+tExplicit 1
