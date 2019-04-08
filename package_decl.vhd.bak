@@ -1,3 +1,4 @@
+
 -- --------------------------------------------------------------------
 --
 --
@@ -17,10 +18,16 @@
 Library IEEE;
 use ieee.std_logic_1164.ALL;
 package Network_Coding is
-  function encoding (
-                    signal input1,input2 : in std_logic_vector(7 downto 0)
-                    ) return std_logic_vector;
-  function encoding (
-                    signal input1,input2 : in integer
-                    ) return integer;
+	--type my_array is std_logic_vector;
+	function encoding (signal input1,input2 : in std_logic)
+	 return std_logic;
 end Network_Coding;
+
+package body Network_Coding is
+  	function encoding (signal input1,input2: std_logic)
+	return my_array is
+	begin
+		return (input1 XOR input2);
+    	end function encoding;
+
+  end Network_Coding;
